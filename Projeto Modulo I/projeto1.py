@@ -138,7 +138,7 @@ def menu(dados):
         if escolha_usuario==1:
             lista_categorias= listar_categorias(dados)
             for categoria in lista_categorias:
-                print(item.upper())
+                print(categoria.upper())
 
         elif escolha_usuario==2:
             lista_categorias= listar_categorias(dados)
